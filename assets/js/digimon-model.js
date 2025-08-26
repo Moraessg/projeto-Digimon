@@ -1,5 +1,5 @@
 
-class Pokemon {
+class digimon {
     number;
     name;
     type;

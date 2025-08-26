@@ -1,4 +1,4 @@
-.pokemons {
+.digimons {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0;
@@ -78,7 +78,7 @@
     background-color: #f9aec7;
 }
 
-.pokemon {
+.digimon {
     display: flex;
     flex-direction: column;
     margin: .5rem;
@@ -86,33 +86,33 @@
     border-radius: 1rem;
 }
 
-.pokemon .number {
+.digimon .id {
     color: #000;
     opacity: .3;
     text-align: right;
     font-size: .625rem;
 }
 
-.pokemon .name {
+.digimon .name {
     text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
 }
 
-.pokemon .detail {
+.digimon .detail {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.pokemon .detail .types {
+.digimon .detail .types {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.pokemon .detail .types .type {
+.digimon .detail .types .type {
     color: #fff;
     padding: .25rem .5rem;
     margin: .25rem 0;
@@ -122,7 +122,7 @@
     text-align: center;
 }
 
-.pokemon .detail img {
+.digimon .detail img {
     max-width: 100%;
     height: 70px;
 }
@@ -147,19 +147,19 @@
 }
 
 @media screen and (min-width: 380px) {
-    .pokemons {
+    .digimons {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 576px) {
-    .pokemons {
+    .digimons {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .pokemons {
+    .digimons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
